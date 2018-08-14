@@ -1,0 +1,149 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@font-face {
+	font-family: 'codropsicons';
+	src:url('../fonts/codropsicons/codropsicons.eot');
+	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cardo-Regular';
+	src:url('../fonts/Cardo-Regular.ttf');
+}
+@font-face {
+	font-family: 'Cardo-Italic';
+	src:url('../fonts/Cardo-Italic.ttf');
+}
+@font-face {
+	font-family: 'Cardo-Bold';
+	src:url('../fonts/Cardo-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Neutra Display';
+  src:url('../fonts/NeutraDisp-Bold.otf');
+}
+
+@font-face {
+  font-family: 'Neutra Display Thin Alt';
+  src:url('../fonts/NeutraDisp-MediumAlt.otf');
+}
+
+.borsetta-bg-dark {
+  background-color: #162B2E;
+}
+
+.borsetta-bg {
+  background-color: #1E393D;
+}
+
+body {
+  /* font-family:  'Cardo-Italic', 'Cardo-Regular'; */
+}
+
+.borsetta .navbar .navbar-nav li >a, .breadcrumbs, .borsetta .nav.navbar-nav{
+  font-family: 'Neutra Display Thin Alt';
+  font-size: .9rem;
+  text-transform: uppercase;
+}
+
+.breadcrumbs::before {
+  content: '<|>';
+  position: absolute;
+  left: -20px;
+}
+
+.navbar, .navbar .navbar-nav li.menu-item-has-children .sub-menu,
+.borsetta.right-panel header#header.header,
+aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.menu-item-has-children .sub-menu{
+  background-color: #1E393D;
+  color: white;
+}
+
+.menu-title img.user-avatar {
+  height: 40px;
+  width: 55px;
+  margin-bottom: 20px;
+}
+
+.menu-title .avatar-label{
+  color: white;
+  padding-top: 12px;
+
+}
+
+.menu-title .avatar-label p, .menu-title .avatar-label p > small {
+  font-family: 'Neutra Display Thin Alt';
+  font-size: .8rem;
+  text-transform: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  line-height: .9rem;
+}
+
+.menu-title .avatar-label h6 {
+  text-transform: none;
+  font-family: 'Neutra Display Thin Alt';
+  color: white;
+  padding: 0;
+  margin: 0;
+  line-height: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.borsetta .navbar .navbar-header {
+  background-color: #162B2E;
+  margin-left: -25px;
+  width: 120%;
+}
+
+.borsetta .header-left .dropdown .dropdown-toggle {
+  color: white;
+}
+
+.open .borsetta .navbar .navbar-header {
+  margin-left: -35px;
+  width: 375%;
+}
+
+.borsetta .menutoggle {
+  position: absolute;
+  background-color: rgba(45, 153, 153, .7);
+}
+
+.open .borsetta a#menuToggle.menutoggle {
+  height: 28px;
+  width: 28px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+
+
+.borsetta.right-panel header#header.header .search-trigger {
+  color: white;
+}
+
+
+
+
+img.borsetta-logo { 
+  fill: #ffffff;
+  stroke: #ffffff;
+  width: 100px;
+  height: 80px;
+}
+
+img.borsetta-icon {
+  fill: #ffffff;
+  stroke: #ffffff;
+  width: 65px;
+  height: 80px;
+  margin-left: -8px;
+}
