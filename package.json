@@ -23,7 +23,10 @@
     "eslint-plugin-react": "^5.1.1"
   },
   "scripts": {
+    "dev" : "next",
     "lint": "eslint .",
-    "start": "node keystone.js"
+    "start": "node keystone.js",
+    "build" : "next build",
+    "heroku-postbuild": "npm run build"
   }
 }
