@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import Link from 'next/link';
 
 class LeftPanel extends Component {
   render() {
@@ -43,6 +44,9 @@ class LeftPanel extends Component {
 
                     <li className="menu-item-has-children dropdown">
                         <a href="#" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fas fa-tags"></i>MarketPlace</a>
+                        <ul className="sub-menu children dropdown-menu">
+                            <li><i className="menu-icon fas fa-file-invoice-dollar"></i><Link href="demo-002-enter-po">Purchase Orders</Link></li>
+                        </ul>
                     </li>
                     <li className="menu-item-has-children dropdown">
                         <a href="#" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon fas fa-briefcase"></i>Business Services</a>

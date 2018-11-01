@@ -151,13 +151,6 @@ function (_Document) {
           lineNumber: 17
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "/_next/static/style.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "shortcut icon",
         href: "../favicon.ico",
         __source: {
@@ -184,13 +177,6 @@ function (_Document) {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 23
-        }
-      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
-        rel: "stylesheet",
-        href: "static/assets/css/font-awesome.min.css",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("link", {
         rel: "stylesheet",
@@ -238,7 +224,7 @@ function (_Document) {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.2.0/css/all.css",
         integrity: "sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ",
-        crossorigin: "anonymous",
+        crossOrigin: "anonymous",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 32

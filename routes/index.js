@@ -23,11 +23,10 @@ const keystone = require('keystone');
 exports = module.exports = nextApp => keystoneApp => {
 	// Next request handler
 	const handle = nextApp.getRequestHandler();
-	// keystoneApp.get('/api/tenants', (req, res, next) => {
-	// 	const Tenant = keystone.list('Tenant');
-
-	// 	Tenant.model.find({});
-	// });
+	keystoneApp.get('/api/tenants', (req, res, next) => {
+		const Tenant = keystone.list('Tenant');
+		Tenant.model.find({});
+	});
 
 	keystoneApp.get('*', (req, res) => {
 		return handle(req, res);
@@ -39,16 +38,17 @@ exports = module.exports = nextApp => keystoneApp => {
 // keystone.pre('routes', middleware.initLocals);
 // keystone.pre('render', middleware.flashMessages);
 
-// // Import Route Controllers
+// Import Route Controllers
 // var routes = {
 // 	views: importRoutes('./views'),
+// 	login: importRoutes('./login')
 // };
 
 // // Setup Route Bindings
 // exports = module.exports = function (app) {
 // 	// Views
 // 	app.get('/', routes.views.index);
-// 	app.all('/contact', routes.views.contact);
+// app.all('/login', routes.views.login);
 
 // 	// NOTE: To protect a route so that only admins can see it, use the requireUser middleware:
 // 	// app.get('/protected', middleware.requireUser, routes.views.protected);

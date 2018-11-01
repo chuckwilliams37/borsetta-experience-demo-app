@@ -15,13 +15,13 @@ export default class BorsettaDocument extends Document {
           <meta name='viewport' content='width=device-width, initial-scale=1.0' />
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossOrigin="anonymous" />
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossOrigin="anonymous"></script>
-          <link rel="stylesheet" href="/_next/static/style.css" />
+          {/* <link rel="stylesheet" href="/_next/static/style.css" /> */}
           <link rel="shortcut icon" href="../favicon.ico" />
           <link rel="apple-touch-icon" href="apple-icon.png"/>
 
           <link rel="stylesheet" href="static/assets/css/normalize.css"/>
           <link rel="stylesheet" href="static/assets/css/bootstrap.min.css"/>
-          <link rel="stylesheet" href="static/assets/css/font-awesome.min.css"/>
+          {/* <link rel="stylesheet" href="static/assets/css/font-awesome.min.css"/> */}
           <link rel="stylesheet" href="static/assets/css/themify-icons.css"/>
           <link rel="stylesheet" href="static/assets/css/flag-icon.min.css"/>
           <link rel="stylesheet" href="static/assets/css/cs-skin-elastic.css"/>
@@ -29,7 +29,7 @@ export default class BorsettaDocument extends Document {
           
           <link rel="stylesheet" href="static/assets/scss/style.css"/>
           <link href="static/assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet"/>
-          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"/>
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossOrigin="anonymous"/>
           <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css' />
         </Head>
         <body>

@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -78,6 +78,8 @@ module.exports =
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
 var _jsxFileName = "/Users/cw/Documents/projects/Borsetta/borsetta-experience-demo-app/components/LeftPanel.js";
 
 
@@ -94,6 +96,7 @@ function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) ===
 function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
 
 
 
@@ -116,19 +119,19 @@ function (_Component) {
         className: "borsetta left-panel",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 8
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("nav", {
         className: "navbar navbar-expand-sm navbar-default",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 10
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "navbar-header",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10
+          lineNumber: 11
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("button", {
         className: "navbar-toggler",
@@ -140,20 +143,20 @@ function (_Component) {
         "aria-label": "Toggle navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12
+          lineNumber: 13
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "fa fa-bars",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13
+          lineNumber: 14
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "navbar-brand",
         href: "./",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "borsetta-logo",
@@ -161,14 +164,14 @@ function (_Component) {
         alt: "Logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 15
+          lineNumber: 16
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         className: "navbar-brand hidden",
         href: "./",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "borsetta-icon",
@@ -176,38 +179,38 @@ function (_Component) {
         alt: "Logo",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 16
+          lineNumber: 17
         }
       }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         id: "main-menu",
         className: "main-menu collapse navbar-collapse",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 19
+          lineNumber: 20
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
         className: "nav navbar-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 20
+          lineNumber: 21
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
         className: "menu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 22
+          lineNumber: 23
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 23
+          lineNumber: 24
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "col-sm-3 pull-right",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 24
+          lineNumber: 25
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
         className: "user-avatar rounded-circle",
@@ -215,69 +218,69 @@ function (_Component) {
         alt: "User Avatar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 25
+          lineNumber: 26
         }
       })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "col-sm-9 pull-left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 28
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         className: "avatar-label",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28
+          lineNumber: 29
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 30
         }
       }, "Username")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h6", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 31
         }
       }, "Lucent Diamonds"))))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 37
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         className: "active",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 39
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fas fa-tachometer-alt",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 40
         }
       }), "Dashboard ")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
         className: "menu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 43
         }
       }, "Activities & Services"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         className: "menu-item-has-children dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 45
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "#",
@@ -287,126 +290,149 @@ function (_Component) {
         "aria-expanded": "false",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fas fa-tags",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 46
         }
-      }), "MarketPlace")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-        className: "menu-item-has-children dropdown",
+      }), "MarketPlace"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+        className: "sub-menu children dropdown-menu",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
         }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "#",
-        className: "dropdown-toggle",
-        "data-toggle": "dropdown",
-        "aria-haspopup": "true",
-        "aria-expanded": "false",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        }
-      }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
-        className: "menu-icon fas fa-briefcase",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        }
-      }), "Business Services")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-        className: "menu-item-has-children dropdown",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 50
-        }
-      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-        href: "#",
-        className: "dropdown-toggle",
-        "data-toggle": "dropdown",
-        "aria-haspopup": "true",
-        "aria-expanded": "false",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        }
-      }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
-        className: "menu-icon far fa-gem",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        }
-      }), "Titling and Tracking"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
-        className: "sub-menu children dropdown-menu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 48
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fas fa-file-invoice-dollar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 48
+        }
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
+        href: "demo-002-enter-po",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        }
+      }, "Purchase Orders")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+        className: "menu-item-has-children dropdown",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "#",
+        className: "dropdown-toggle",
+        "data-toggle": "dropdown",
+        "aria-haspopup": "true",
+        "aria-expanded": "false",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        }
+      }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+        className: "menu-icon fas fa-briefcase",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        }
+      }), "Business Services")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+        className: "menu-item-has-children dropdown",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+        href: "#",
+        className: "dropdown-toggle",
+        "data-toggle": "dropdown",
+        "aria-haspopup": "true",
+        "aria-expanded": "false",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        }
+      }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+        className: "menu-icon far fa-gem",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 55
+        }
+      }), "Titling and Tracking"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("ul", {
+        className: "sub-menu children dropdown-menu",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
+        }
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
+        className: "menu-icon fas fa-file-invoice-dollar",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 57
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 57
         }
       }, "Title Assets")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 58
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fas fa-file-alt",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 58
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "forms-basic.html",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 54
+          lineNumber: 58
         }
       }, "Title Memo Assets")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 59
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fas fa-layer-group",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 59
         }
       }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "forms-advanced.html",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 55
+          lineNumber: 59
         }
       }, "All Title Assets")))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
         className: "menu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 63
         }
       }, "Finance & Data"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         className: "menu-item-has-children dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 61
+          lineNumber: 65
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "#",
@@ -416,36 +442,36 @@ function (_Component) {
         "aria-expanded": "false",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 66
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fa fa-tasks",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 62
+          lineNumber: 66
         }
       }), "Contracts")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 68
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 69
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon ti-email",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 69
         }
       }), "Wallet")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         className: "menu-item-has-children dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 71
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "#",
@@ -455,19 +481,19 @@ function (_Component) {
         "aria-expanded": "false",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 72
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fa fa-bar-chart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 72
         }
       }), "Inventory")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
         className: "menu-item-has-children dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 74
         }
       }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
         href: "#",
@@ -477,13 +503,13 @@ function (_Component) {
         "aria-expanded": "false",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 75
         }
       }, " ", __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("i", {
         className: "menu-icon fa fa-area-chart",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 71
+          lineNumber: 75
         }
       }), "Account"))))));
     }
@@ -2611,21 +2637,16 @@ function (_Component) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__ = __webpack_require__("@babel/runtime/regenerator");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__("react");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_LeftPanel__ = __webpack_require__("./components/LeftPanel.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_RightPanel__ = __webpack_require__("./components/RightPanel.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_axios__ = __webpack_require__("axios");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_axios__);
-
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_LeftPanel__ = __webpack_require__("./components/LeftPanel.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_RightPanel__ = __webpack_require__("./components/RightPanel.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_axios__ = __webpack_require__("axios");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_axios___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_axios__);
 var _jsxFileName = "/Users/cw/Documents/projects/Borsetta/borsetta-experience-demo-app/pages/index.js";
 
 
 function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
-
-function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function step(key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } } function _next(value) { step("next", value); } function _throw(err) { step("throw", err); } _next(); }); }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -2657,71 +2678,39 @@ function (_Component) {
 
   _createClass(App, [{
     key: "render",
+    // static async getInitialProps() {
+    // static async getInitialProps () {
+    //   let response = await axios.get('https://omgvamp-hearthstone-v1.p.mashape.com/cards',{headers: {"X-Mashape-Key": "LRcy7D5BaKmshRtPkQnayek43bG0p1BTtkbjsnRYdBCif1iHEp"}});
+    //   return { cards: response.data }
+    // };
     value: function render() {
-      return __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement("div", {
+      return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15
         }
-      }, __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_LeftPanel__["a" /* default */], {
+      }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1__components_LeftPanel__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
-      }), __WEBPACK_IMPORTED_MODULE_1_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__components_RightPanel__["a" /* default */], {
+      }), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2__components_RightPanel__["a" /* default */], {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
       }));
     }
-  }], [{
-    key: "getInitialProps",
-    // static async getInitialProps() {
-    value: function () {
-      var _getInitialProps = _asyncToGenerator(
-      /*#__PURE__*/
-      __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.mark(function _callee() {
-        var response;
-        return __WEBPACK_IMPORTED_MODULE_0__babel_runtime_regenerator___default.a.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                _context.next = 2;
-                return __WEBPACK_IMPORTED_MODULE_4_axios___default.a.get('https://omgvamp-hearthstone-v1.p.mashape.com/cards', {
-                  headers: {
-                    "X-Mashape-Key": "LRcy7D5BaKmshRtPkQnayek43bG0p1BTtkbjsnRYdBCif1iHEp"
-                  }
-                });
-
-              case 2:
-                response = _context.sent;
-                return _context.abrupt("return", {
-                  cards: response.data
-                });
-
-              case 4:
-              case "end":
-                return _context.stop();
-            }
-          }
-        }, _callee, this);
-      }));
-
-      return function getInitialProps() {
-        return _getInitialProps.apply(this, arguments);
-      };
-    }()
   }]);
 
   return App;
-}(__WEBPACK_IMPORTED_MODULE_1_react__["Component"]);
+}(__WEBPACK_IMPORTED_MODULE_0_react__["Component"]);
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
@@ -2729,17 +2718,17 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ }),
 
-/***/ "@babel/runtime/regenerator":
-/***/ (function(module, exports) {
-
-module.exports = require("@babel/runtime/regenerator");
-
-/***/ }),
-
 /***/ "axios":
 /***/ (function(module, exports) {
 
 module.exports = require("axios");
+
+/***/ }),
+
+/***/ "next/link":
+/***/ (function(module, exports) {
+
+module.exports = require("next/link");
 
 /***/ }),
 
