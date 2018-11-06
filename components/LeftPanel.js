@@ -54,7 +54,7 @@ class LeftPanel extends Component {
                     <li className="menu-item-has-children dropdown">
                         <a href="#" className="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i className="menu-icon far fa-gem"></i>Titling and Tracking</a>
                         <ul className="sub-menu children dropdown-menu">
-                            <li><i className="menu-icon fas fa-file-invoice-dollar"></i><a href="#">Title Assets</a></li>
+                            <li><i className="menu-icon fas fa-file-invoice-dollar"></i><a href="demo-title-home-001">Title Assets</a></li>
                             <li><i className="menu-icon fas fa-file-alt"></i><a href="forms-basic.html">Title Memo Assets</a></li>
                             <li><i className="menu-icon fas fa-layer-group"></i><a href="forms-advanced.html">All Title Assets</a></li>
                         </ul>

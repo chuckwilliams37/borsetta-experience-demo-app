@@ -39,6 +39,31 @@
   display: block;
 }
 
+.open aside.left-panel .navbar .navbar-brand.hidden  {
+  margin-left: -3.75rem;
+
+}
+
+.borsetta.right-panel {
+  /* border: 2px dashed red; */
+}
+
+.borsetta.right-panel {
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0, #FFFFFF),
+    color-stop(1, #E8DBCB)
+  );
+    background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #E8DBCB 100%);
+    background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #E8DBCB 100%);
+    background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #E8DBCB 100%);
+    background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #E8DBCB 100%);
+    background-image: linear-gradient(to bottom, #FFFFFF 0%, #E8DBCB 100%);
+}
+
+
 .borsetta-bg {
   background-color: #1E393D;
   color: white;
@@ -110,26 +135,27 @@ aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.m
 
 .borsetta .navbar .navbar-header {
   background-color: #1E393D;
-  margin-left: -25px;
-  width: 120%;
 }
 
 .borsetta .container-fluid {
   background: #E8DBCB;
 }
 
+
+
 .borsetta .header-left .dropdown .dropdown-toggle {
   color: white;
 }
 
 .open .borsetta .navbar .navbar-header {
-  margin-left: -35px;
+  /* margin-left: -35px; */
   width: 375%;
 }
 
 .borsetta .menutoggle {
   position: absolute;
   background-color: rgba(45, 153, 153, .7);
+  margin: -2px 20px 0 -57px;
 }
 
 .open .borsetta a#menuToggle.menutoggle {
@@ -137,10 +163,19 @@ aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.m
   width: 28px;
   font-size: 14px;
   line-height: 30px;
+  margin: -2px 20px 0 -42px;
+}
+
+.open aside.left-panel .navbar .navbar-nav li.menu-item-has-children.show .sub-menu {
+  right: -120px;
 }
 
 .borsetta.right-panel header#header.header .search-trigger {
   color: white;
+}
+
+.borsetta .breadcrumbs {
+  border-bottom: 1px solid #1E393D;
 }
 
 .borsetta-page-container {
@@ -208,7 +243,7 @@ img.borsetta-icon {
   fill: #ffffff;
   stroke: #ffffff;
   width: 65px;
-  height: 80px;
+  max-height: 80px;
   margin-left: -8px;
 }
 
@@ -262,6 +297,8 @@ input.borsetta-input {
   width: 100%;
   height: 3.75rem; /* Set the fixed height of the footer here */
   line-height: 3.75rem; /* Vertically center the text there */
+  display: block;
+  clear: both;
 }
 
 .footer::after {
@@ -272,6 +309,50 @@ input.borsetta-input {
 @media only screen and (max-width: 600px) {
   body {
    
+  }
+
+  aside.left-panel .navbar .navbar-brand {
+    margin-top: 0;
+  }
+
+  .borsetta .navbar .navbar-header {
+    /* margin-left: -1rem; */
+  }
+
+  .borsetta.right-panel{
+    min-height: 100vh;
+  }
+
+  aside.left-panel .navbar .navbar-toggler  {
+    color: white;
+    background-color: rgba(45, 153, 153, .7);
+
+  }
+
+  
+
+  aside.left-panel .navbar .navbar-toggler:hover,aside.left-panel .navbar .navbar-toggler:focus  {
+    color: white;
+    background-color: rgba(65, 183, 183, .8);
+  }
+
+  img.borsetta-logo {
+    margin: 0 1.5rem 0 0;
+    padding: 0.25rem 0;
+    max-height: 3rem;
+  }
+
+  .menu-title img.user-avatar {
+      height: 32px;
+      width: 48px;
+      margin-bottom: 0;
+  }
+
+
+  .borsetta .user-area .user-avatar {
+    margin: 0 .25rem .5rem 0;
+    width: 48px;
+    height: 32px;
   }
 
   .footer {
@@ -310,5 +391,12 @@ input.borsetta-input {
     line-height: 1.6rem;
     color: #1E393D;
     line-height: 1rem;
+  }
+}
+
+
+@media (max-width: 575.99px) {
+  aside.left-panel.borsetta .navbar .navbar-brand {
+    margin-top: 0;
   }
 }

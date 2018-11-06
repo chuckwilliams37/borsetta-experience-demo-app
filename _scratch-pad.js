@@ -1,21 +1,4 @@
-import { Component } from 'react';
-import LeftPanel from '../components/LeftPanel';
-import RightPanel from '../components/RightPanel';
-import axios from 'axios';
-
-class App extends Component {
-  // static async getInitialProps() {
-  // static async getInitialProps () {
-  //   let response = await axios.get('https://omgvamp-hearthstone-v1.p.mashape.com/cards',{headers: {"X-Mashape-Key": "LRcy7D5BaKmshRtPkQnayek43bG0p1BTtkbjsnRYdBCif1iHEp"}});
-  //   return { cards: response.data }
-  // };
-
-  render() {
-    return  (
-      <div>
-        <LeftPanel />
-        <RightPanel>
-        <div className="col-sm-12">
+<div className="col-sm-12">
               <div className="alert  alert-success alert-dismissible fade show" role="alert">
                 <span className="badge badge-pill badge-success">Success</span> You successfully read this important alert message.
                   <button type="button" className="close" data-dismiss="alert" aria-label="Close">
@@ -391,11 +374,3 @@ class App extends Component {
               </div>
             
           </div>
-
-        </RightPanel>
-      </div>
-    );
-  };
-}
-
-export default App;
