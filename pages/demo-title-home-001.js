@@ -44,7 +44,7 @@ class App extends Component {
   
     const columns = [
       {
-        Header: 'Titled',
+        Header: 'Titled?',
         accessor: 'isTitled',
         Cell: (props)=>{ return (props.original.isTitled ? <i class="fas fa-shield-alt"></i> : null) },
         maxWidth: 64
