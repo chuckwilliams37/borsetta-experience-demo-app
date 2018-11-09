@@ -179,7 +179,7 @@ aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.m
 }
 
 .borsetta-page-container {
-  min-height: 100vh;
+  /* min-height: 100vh; */
 
   background-image: -webkit-gradient(
 	linear,
@@ -306,6 +306,24 @@ input.borsetta-input {
   
 }
 
+.borsetta .ReactTable {
+  background: rgba(67, 97, 97, 0.623);
+}
+.borsetta .ReactTable .rt-tbody {
+  background: rgba(33, 42, 42, 0.63);
+  color: rgb(255, 255, 255);
+}
+
+.borsetta .ReactTable .rt-tr-group:hover {
+  background: rgba(6, 228, 228, 0.63);
+  color: rgba(2, 29, 29, 0.719);
+  cursor: pointer;
+}
+
+.borsetta .ReactTable .rt-tr-group .rt-td:first-child {
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   body {
    
@@ -321,6 +339,7 @@ input.borsetta-input {
 
   .borsetta.right-panel{
     min-height: 100vh;
+    display: inline-block;
   }
 
   aside.left-panel .navbar .navbar-toggler  {

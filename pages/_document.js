@@ -31,6 +31,7 @@ export default class BorsettaDocument extends Document {
           <link href="static/assets/css/lib/vector-map/jqvmap.min.css" rel="stylesheet"/>
           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossOrigin="anonymous"/>
           <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css' />
+          <link rel="stylesheet" href="https://unpkg.com/react-table@latest/react-table.css"></link>
         </Head>
         <body>
           <Main />

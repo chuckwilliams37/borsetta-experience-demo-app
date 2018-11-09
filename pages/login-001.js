@@ -24,7 +24,7 @@ class LoginInputView extends Component {
 
   render () {
     return (
-      <div class="borsetta-page-container login" >
+      <div className="borsetta-page-container login" >
         <BaseHeader />
         <div>
             <BorsettaLogoSvg />
