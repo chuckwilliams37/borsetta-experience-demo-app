@@ -9,7 +9,6 @@
     "async": "2.1.4",
     "axios": "^0.18.0",
     "dotenv": "4.0.0",
-    "fs": "0.0.1-security",
     "keystone": "^4.0.0",
     "keystone-email": "^1.1.0",
     "lodash": "^4.13.1",
