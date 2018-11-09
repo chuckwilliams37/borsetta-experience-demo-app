@@ -46,7 +46,7 @@ class App extends Component {
       {
         Header: 'Titled?',
         accessor: 'isTitled',
-        Cell: (props)=>{ return (props.original.isTitled ? <i class="fas fa-shield-alt"></i> : null) },
+        Cell: (props)=>{ return (props.original.isTitled ? <i className="fas fa-shield-alt"></i> : null) },
         maxWidth: 64
       },
       {

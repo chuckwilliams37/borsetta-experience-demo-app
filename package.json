@@ -4,21 +4,19 @@
   "private": true,
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
-    "acorn": "^6.0.4",
-    "ajv": "^6.5.5",
     "async": "2.1.4",
     "axios": "^0.18.0",
     "dotenv": "4.0.0",
-    "keystone": "^4.0.0",
-    "keystone-email": "^1.1.0",
+    "keystone": "4.0.0-beta.5",
+    "keystone-email": "1.0.5",
     "lodash": "^4.13.1",
-    "mocker-data-generator": "^2.6.6",
     "next": "^6.1.1",
-    "node-sass": "^4.10.0",
+    "node-sass": "^4.9.3",
     "node-sass-middleware": "^0.11.0",
     "pug": "2.0.0-beta11",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1"
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "mocker-data-generator": "^2.6.6"
   },
   "devDependencies": {
     "eslint": "3.15.0",
