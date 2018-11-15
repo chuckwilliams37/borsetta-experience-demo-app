@@ -10,13 +10,14 @@
     "keystone": "4.0.0-beta.5",
     "keystone-email": "1.0.5",
     "lodash": "^4.13.1",
+    "mocker-data-generator": "^2.6.6",
     "next": "^6.1.1",
     "node-sass": "^4.9.3",
     "node-sass-middleware": "^0.11.0",
     "pug": "2.0.0-beta11",
     "react": "^16.4.2",
+    "react-bootstrap": "^0.32.4",
     "react-dom": "^16.4.2",
-    "mocker-data-generator": "^2.6.6",
     "react-table": "^6.8.6"
   },
   "devDependencies": {

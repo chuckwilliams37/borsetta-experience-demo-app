@@ -14,7 +14,12 @@ class App extends Component {
     return  (
       <div>
         <LeftPanel />
-        <RightPanel>
+        <RightPanel  
+            title={<div><i className="menu-icon fas fa-tachometer-alt"></i>&nbsp;Dashboard </div>} 
+          breadcrumbs={["Home"]} 
+          pageHeader="Home"
+          pageSubHeader="Review general data &amp; statistics."
+          >
         <div className="col-sm-12">
               <div className="alert  alert-success alert-dismissible fade show" role="alert">
                 <span className="badge badge-pill badge-success">Success</span> You successfully read this important alert message.

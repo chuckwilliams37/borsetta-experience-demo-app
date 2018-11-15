@@ -154,6 +154,9 @@ class RightPanel extends Component {
       </div>
 
       <div className="content mt-3">
+        <header>
+            <h1>{this.props.pageHeader ? this.props.pageHeader : ''}<span><small>{this.props.pageSubHeader ? this.props.pageSubHeader : '' }</small></span></h1>
+        </header>
           {Children.only(<div>{this.props.children}</div>)}
       </div>
   </div>

@@ -83,8 +83,9 @@ svg {
 
 .borsetta .navbar .navbar-nav li >a, .breadcrumbs, .borsetta .nav.navbar-nav{
   font-family: 'Neutra Display Thin Alt';
-  font-size: .9rem;
+  /* font-size: .9rem; */
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .breadcrumbs::before {
@@ -114,16 +115,15 @@ aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.m
 
 .menu-title .avatar-label p, .menu-title .avatar-label p > small {
   font-family: 'Neutra Display Thin Alt';
-  font-size: .8rem;
+  /* font-size: .8rem; */
   text-transform: none;
   color: white;
   padding: 0;
   margin: 0;
-  line-height: .9rem;
+  /* line-height: .9rem; */
 }
 
 .menu-title .avatar-label h6 {
-  text-transform: none;
   font-family: 'Neutra Display Thin Alt';
   color: white;
   padding: 0;
@@ -140,8 +140,6 @@ aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.m
 .borsetta .container-fluid {
   background: #E8DBCB;
 }
-
-
 
 .borsetta .header-left .dropdown .dropdown-toggle {
   color: white;
@@ -174,8 +172,99 @@ aside.borsetta.left-panel, .borsetta .navbar, .borsetta .navbar .navbar-nav li.m
   color: white;
 }
 
+.borsetta.right-panel .content header h1{
+  font-family: 'Cardo-Italic';
+  font-size: 1.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.borsetta.right-panel .content header span{
+  margin: 0 1.5rem;
+  vertical-align: center;
+}
+.borsetta.right-panel .content header span small {
+  /* font-size: 0.8rem; */
+}
+
 .borsetta .breadcrumbs {
   border-bottom: 1px solid #1E393D;
+}
+
+.borsetta .asset-detail-page-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 0.75rem;
+  grid-template-rows: 1fr;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell {
+  border : 1px solid white;
+  background-color: rgba(255,255,255,0.6);
+  margin: 0.75rem 0;
+  padding: 1.5rem;
+}
+
+.borsetta .clickable {
+  cursor: pointer;
+}
+
+.borsetta .asset-detail-grid-cell .clickable:hover {
+  background-color:  rgba(45, 153, 153, .3);;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section {
+  text-align: center;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section img {
+  max-width: 100%;
+  max-height: 12rem;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section > p.item-label {
+  border-bottom: 1px solid  rgba(45, 153, 153, .3);
+  text-transform: uppercase;
+  color: black;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section > p.item-id {
+  color: #666666;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section td {
+  /* font-size: .8rem; */
+  padding: .25rem;
+  text-align: left;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section td:first-child{
+  color: gray;
+}
+
+.borsetta .asset-detail-page-container .asset-detail-grid-cell section td:nth-child(2){
+  color: black;
+  margin-left: 0.5rem;
+}
+
+.borsetta header.collapsible-header {
+  width: 100%;
+  border-bottom: 1px solid rgba(45, 153, 153, .7);
+}
+
+.borsetta .collapsed header.collapsible-header::after {
+  content: "\f0da";
+  display: block;
+  position: relative;
+  float: right;
+  font-family: "FontAwesome";
+}
+
+.borsetta header.collapsible-header::after {
+  content: "\f0d7";
+  display: block;
+  position: relative;
+  float: right;
+  font-family: "FontAwesome";
 }
 
 .borsetta-page-container {
@@ -217,7 +306,7 @@ svg.borsetta-logo {
   margin-top: 1rem;
   margin-bottom: 2rem;
   font-size: 1.5rem;
-  letter-spacing: .3rem;
+  letter-spacing: .1rem;
   line-height: 2.2rem;
 }
 
@@ -247,12 +336,14 @@ img.borsetta-icon {
   margin-left: -8px;
 }
 
-.borsetta-button {
+.borsetta-button, .btn-primary, .btn-default {
   width: 85%;
   height: 6rem;
   padding: 1.25rem;
   margin:1.5rem;
-  max-width: 40rem;
+  /* max-width: 40rem;
+   */
+  white-space: nowrap;
   border: 1px solid #1E393D;
   background-color:  #1E393D;
   text-align: center;
@@ -262,6 +353,24 @@ img.borsetta-icon {
   color: white;
   line-height: 1rem;
   text-transform: uppercase;
+}
+
+.borsetta-button[disabled], .borsetta-button:hover[disabled], .btn-primary[disabled], .btn-primary:hover[disabled], .btn-default[disabled], .btn-default:hover[disabled] {
+  width: 85%;
+  height: 6rem;
+  padding: 1.25rem;
+  margin:1.5rem;
+  max-width: 40rem;
+  border: 1px solid rgb(107, 107, 107);
+  background-color:  rgb(110, 110, 110);
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: .3rem;
+  line-height: 2.2rem;
+  color: rgb(195, 195, 195);
+  line-height: 1rem;
+  text-transform: uppercase;
+  cursor: not-allowed;
 }
 
 input.borsetta-input {
@@ -280,16 +389,40 @@ input.borsetta-input {
   line-height: 2.2rem;
 }
 
-.borsetta-button.secondary {
+.borsetta-button.secondary, .btn-default {
   background-color:  rgba(45, 153, 153, .2);
   color: #1E393D;
 }
 
-.borsetta-button:hover {
+.borsetta-button:hover, .btn-primary:hover {
   background-color:  #3D757D;
   color: white;
 }
 
+.borsetta .action-bar-container {
+  border: 1px dotted rgba(45, 153, 153, .7);
+  margin: 0 0 1.5rem 0;
+  padding: 0.25rem;
+  background: rgba(24,24,24,.5);
+  font-size: 1.5rem;
+  height: 3rem;
+  display: inline-table;
+  width: 100%;
+}
+
+.borsetta .action-bar-container .borsetta-button {
+  width: auto;
+  margin: 0.5rem;
+  /* font-size: 0.8rem; */
+  /* line-height: 0.9rem; */
+  /* padding: 0.25rem 1rem; */
+  /* height: 2rem; */
+  border: 1px solid rgba(101, 202, 202, 0.9);
+}
+
+.borsetta .action-bar-container .borsetta-button[disabled], .borsetta .action-bar-container .borsetta-button:hover[disabled]{
+  border: 1px solid rgba(75, 75,75, 1);
+}
 
 .footer {
   color: #1E393D;
@@ -307,15 +440,15 @@ input.borsetta-input {
 }
 
 .borsetta .ReactTable {
-  background: rgba(67, 97, 97, 0.623);
+  background: rgba(67, 97, 97, 0.65);
 }
 .borsetta .ReactTable .rt-tbody {
-  background: rgba(33, 42, 42, 0.63);
+  background: rgba(33, 42, 42, 0.65);
   color: rgb(255, 255, 255);
 }
 
 .borsetta .ReactTable .rt-tr-group:hover {
-  background: rgba(6, 228, 228, 0.63);
+  background: rgba(6, 228, 228, 0.65);
   color: rgba(2, 29, 29, 0.719);
   cursor: pointer;
 }
@@ -340,6 +473,7 @@ input.borsetta-input {
   .borsetta.right-panel{
     min-height: 100vh;
     display: inline-block;
+    max-width: 85vw;
   }
 
   aside.left-panel .navbar .navbar-toggler  {
@@ -381,7 +515,7 @@ input.borsetta-input {
   }
 
   .borsetta-page-container .borsetta-subheader {
-    font-size: 0.8rem;
+    /* font-size: 0.8rem; */
     margin-top: 0.5rem;
     margin-bottom: 2rem;
     letter-spacing: 0.1rem;
@@ -389,8 +523,8 @@ input.borsetta-input {
   }
   
   
-  .borsetta-button {
-    font-size: 0.8rem;
+  .borsetta-button, .btn-primary, .btn-default {
+    /* font-size: 0.8rem; */
     font-weight: bold;
     height: 4rem; 
     margin:0.8rem;
@@ -418,4 +552,55 @@ input.borsetta-input {
   aside.left-panel.borsetta .navbar .navbar-brand {
     margin-top: 0;
   }
+}
+
+.modal-container {
+  position: relative;
+
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.modal-backdrop.fade {
+  opacity: 0.6;
+}
+
+.modal.fade .modal-dialog {
+  -webkit-transform: translate(0,0); 
+  transform: translate(0,0);
+}
+
+.progress {
+  height: 4rem;
+}
+
+.progress-bar {
+  background-color: #3D757D;
+}
+
+.modal-footer .btn+.btn {
+  margin-bottom: 15px;
+}
+
+.borsetta table.borsetta-checklist {
+  min-width: 50%;
+  max-width: 75%;
+
+}
+
+.borsetta.right-panel table.borsetta-checklist {
+  margin: 2.5rem auto;
+  
+}
+
+.borsetta.right-panel table.borsetta-checklist td:first-child {
+  font-size: 4rem;
+  color: #1E393D;
+  text-align: center;
+  
+}
+
+.borsetta table.borsetta-checklist tr td:nth-child(2) {
+  text-align: center;
 }
